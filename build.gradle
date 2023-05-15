@@ -40,6 +40,7 @@ dependencies {
 	annotationProcessor("com.querydsl:querydsl-apt:${dependencyManagement.importedProperties['querydsl.version']}:jpa")
 	annotationProcessor('jakarta.annotation:jakarta.annotation-api')
 	annotationProcessor('jakarta.persistence:jakarta.persistence-api')
+	annotationProcessor('org.springframework.boot:spring-boot-configuration-processor')
 }
 
 // 테스트 관련 에러로 주석처리
