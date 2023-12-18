@@ -28,6 +28,7 @@ spring:
   h2.console.enabled: true
   sql.init.mode: always
 
+<<<<<<< ad072cfd41640169fe60ebe891b79f8aaf98ff36
 ---
 
 spring:
@@ -37,3 +38,5 @@ spring:
 #    driverClassName: org.h2.Driver
 #    sql.init.mode: alwyas
 #    test.database.replace: none
+=======
+>>>>>>> Revert "#11 - Spring Data JPA 속성과 설정"
