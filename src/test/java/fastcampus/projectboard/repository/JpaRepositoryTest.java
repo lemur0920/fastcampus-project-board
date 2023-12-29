@@ -24,7 +24,7 @@ class JpaRepositoryTest {
                              @Autowired ArticleCommentRepository articleCommentRepository) {
         this.articleRepository = articleRepository;
         this.articleCommentRepository = articleCommentRepository;
-    }
+    } //
 
     @DisplayName("select 테스트")
     @Test
