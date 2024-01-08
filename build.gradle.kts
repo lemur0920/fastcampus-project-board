@@ -1,5 +1,5 @@
 plugins {
-    java
+    id("java")
     id("org.springframework.boot") version "3.1.6"
     id("io.spring.dependency-management") version "1.1.4"
 }
@@ -34,6 +34,11 @@ dependencies {
     testImplementation ("org.springframework.boot:spring-boot-starter-test")
     implementation ("org.springframework.boot:spring-boot-starter-data-rest")
     implementation ("org.springframework.data:spring-data-rest-hal-explorer")
+    implementation ("org.springframework.boot:spring-boot-starter-thymeleaf")
+
+    // queryDSL 설정
+    implementation("com.querydsl:querydsl-jpa:5.0.0:jakarta")
+    implementation("com.querydsl:querydsl-apt:5.0.0:jakarta")
 }
 
 tasks.withType<Test> {
